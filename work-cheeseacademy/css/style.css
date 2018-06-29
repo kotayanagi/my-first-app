@@ -1,0 +1,871 @@
+.wrapper {
+    width: 100%;
+    background-image: url(../images/background/background.jpg);
+    background-attachment: fixed;
+}
+.wrap {
+    width: 100%;
+    margin-right: auto;
+    margin-left:auto;
+    background-color: white;
+    opacity: 0.9;
+}
+h1 {
+    font-family: "TIMES NEW ROMAN", "游ゴシック";
+}
+h2 {
+    font-family: "TIMES NEW ROMAN", "游ゴシック";
+}
+h3 {
+    font-size: 20px;
+    font-family: "TIMES NEW ROMAN", "游ゴシック";
+    line-height: 1.75;
+}
+p {
+    font-size: 20px; 
+    font-family: "TIMES NEW ROMAN", "游ゴシック";
+    line-height: 1.75;
+}
+
+
+#cheeze-pic {
+    width: 100%;
+    height: auto;
+    float: top;
+    z-index: 1;
+    
+}
+.site-title {
+    white-space: nowrap;
+    font-size: 70px;
+    color: Ivory;
+    font-weight: bold;
+    padding-bottom: 30px;
+    font-family: "Marker Felt";
+    display: none;
+}
+.site-title2 {
+    white-space: nowrap;
+    font-size: 70px;
+    color: Ivory;
+    font-weight: bold;
+    padding-bottom: 30px;
+    font-family: "Marker Felt";
+    display: none;
+}
+.site-title3 {
+    white-space: nowrap;
+    font-size: 70px;
+    color: Ivory;
+    font-weight: bold;
+    padding-bottom: 30px;
+    font-family: "Marker Felt";
+    display: none;
+}
+.site-title4 {
+    white-space: nowrap;
+    font-size: 70px;
+    color: Ivory;
+    font-weight: bold;
+    padding-bottom: 30px;
+    font-family: "Marker Felt";
+    display: none;
+}
+#site-title2 {
+    white-space: nowrap;
+    font-size: 40px; 
+    color: whitesmoke;
+    padding-top: 20px;
+    font-style: italic;
+    background: linear-gradient(transparent 90%, rgb(255, 255, 186) 25%);
+}
+#main-visual {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    color: whitesmoke;
+}
+.navi {
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #efefef;
+    position: fixed;
+    right: 3%;
+}
+
+.navi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navi-pic {
+    width: 15%;
+    height: 36px;
+    padding: 13px 9%;
+}
+.navi li {
+    font-size: 20px;
+    display: inline-block;
+    padding-right: 54px;
+    background: linear-gradient(transparent 30%, white 25%);
+
+}
+.about {
+    text-align: center;
+    padding-top: 90px;
+    margin-bottom: 80px;
+    width: 100%;
+    margin-top: -3px;
+}
+.about h2 {
+    color: #ffd61a;
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+.about h3 {
+    margin-bottom: 64px;
+    word-spacing: 1.75px;
+    font-weight: normal;
+}
+.about p {
+    margin-bottom: 40px;
+    word-spacing: 1.75px;
+}
+#middle-pic {
+    width: 100%; 
+}
+.course {
+    text-align: center;
+    margin: 64px 0;
+    width: 100%;
+}
+.course h2 {
+    font-size: 24px; 
+    color: #222222;
+    margin-bottom: 24px;
+}
+.course h3 {
+    font-weight: normal;
+    margin-bottom: 64px;
+}
+.middle {
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+}
+
+
+.intern {
+    width: 100%;
+    
+}
+.knowledge {
+    width: 100%;
+    
+}
+.graduation {
+    width: 100%;
+    height: 300px;
+    
+}
+#first {
+    width: 80%;
+    display: inline-block;
+    text-align: right;
+    vertical-align: middle;
+    z-index: 2;
+    background-color: rgba(94, 94, 94, 0.8);
+    transform: translate(9%, -110%);
+    height: 260px;
+    padding-top: 40px;
+    padding-left: 20px;
+    opacity: 0;
+}
+#first:hover {
+    opacity: 1;
+    transition-duration: 1s;
+}
+#first h2 {
+    font-size: 24px;
+    color: whitesmoke;
+    margin: 0 48px;
+    margin-bottom: 40px;
+    text-align: right;
+}
+#first p {
+    text-align: initial;
+    margin: 0 48px;
+    color: white;
+}
+#second {
+    width: 80%;
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    z-index: 2;
+    background-color: rgba(94, 94, 94, 0.8);
+    transform: translate(0%, -193%);
+    height: 260px;
+    opacity: 0;
+    
+    padding-top: 40px;
+    padding-left: 20px;
+}
+#second:hover {
+    opacity: 1;
+    transition-duration: 1s;
+}
+#second h2 {
+    font-size: 24px;
+    color: whitesmoke;
+    margin: 0 48px;
+    margin-bottom: 40px;
+    text-align: left;
+    
+}
+#second p {
+    text-align: initial;
+    margin: 0 48px;
+    color: white;
+    
+}
+#third {
+    width: 80%;
+    display: inline-block;
+    text-align: right;
+    vertical-align: middle;
+    z-index: 2;
+    background-color: rgba(94, 94, 94, 0.8);
+    transform: translate(2%, -280%);
+    height: 260px;
+    opacity: 0;
+    
+    padding-top: 40px;
+    padding-left: 20px;
+}
+#third:hover {
+    opacity: 1;
+    transition-duration: 1s;
+}
+#third h2 {
+    font-size: 24px;
+    color: whitesmoke;
+    margin: 0 48px;
+    margin-bottom: 40px;
+    text-align: right;
+}
+#third p {
+    text-align: initial;
+    margin: 0 48px;
+    color: white;
+
+}
+.first1 {
+    opacity: 1;
+}
+.second1 {
+    opacity: 1;
+}
+.third1 {
+    opacity: 1;
+}
+#course1 {
+    width: 65%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 30%;
+    z-index: 1;
+}
+#course2 {
+    width: 65%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15%;
+    margin-left: 15%;
+    transform:translate(0%, -40%);
+    z-index: 1;
+}
+#course3 {
+    width: 65%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 30%;
+    transform:translate(0%, -80%);
+    
+    z-index: 1;
+}
+.news {
+    text-align: center;
+    width: 100%;
+}
+.news-title {
+    margin: 112px 0 64px 0;
+}
+.news-title h2 {
+    font-size: 24px;
+    color: #ffd61a;
+    margin-bottom: 24px;
+}
+.news-title h3 {
+    font-weight: normal;
+    color: white;
+}
+
+.cheeze1 {
+    width: 900px;
+    display: inline-block;
+    margin-right: 32px;
+}
+.cheeze2 {
+    width: 900px;
+    display: inline-block;
+}
+.cheeze3 {
+    width: 900px;
+    display: inline-block;
+    margin-left: 32px;
+}
+.date {
+    font-size: 16px;
+    text-align: left;
+    margin: 32px 0 24px 16px;
+    color: white;
+}
+.description {
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 56px;
+    color: white;
+    margin-left: 16px;
+}
+.news img {
+    width: 360px; 
+    height: 270px;
+    border: 2px solid ivory; 
+}
+.news img:hover {
+    width: 560px;
+    height: 420px;
+    margin-right: 50px;
+    backface-visibility: hidden;
+}
+.more {
+    width: 300px;
+    height: 60px; 
+    background-color: #ffd61a;
+    position: relative;
+    display: inline-block;
+    margin: 56px 0 48px 0;
+    text-align: center;
+}
+.more a {
+    font-size: 21px;
+    color: white;
+    position: absolute; 
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+.more a:hover {
+    color: lightcoral;
+    font-family: "herculanum";
+}
+
+.access {
+    background-color: #fafafa;
+    width: 100%; 
+    text-align: center;
+}
+.access h2 {
+    padding-top: 64px;
+    margin-bottom: 24px;
+}
+.access h3 {
+    font-weight: normal; 
+    font-size: 16px;
+    margin-bottom: 64px;
+}
+#map iframe {
+    width: 100%;
+    height: 641px;
+}
+#school {
+    margin: 64px 0 80px 0;
+}
+#school dl {
+    font-size: 13px;
+    width: 408px;
+    display: inline-block;
+    margin-bottom: 80px;
+}
+#school dt {
+    width: 98px; 
+    padding-left: 20px;
+    display: inline-block;
+    font-size: 13px;
+    word-spacing: 1.75px;
+    margin-bottom: 24px;
+    text-align: left;
+}
+#school dd {
+    width: 285px;
+    display: inline-block;
+    font-size: 13px;
+    word-spacing: 1.75px;
+    text-align: start;
+}
+.contact {
+    text-align: center;
+    padding-top: 64px;
+    width: 100%;
+    color: white;
+}
+.contact h3 {
+    font-weight: normal; 
+    margin: 24px 0 64px 0;
+}
+#contact1 {
+    margin: 32px;
+}
+#contact {
+    margin: 32px;
+}
+
+.form dl {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 80px 23.5% 40px 23.5%;
+    font-size: 14px;
+    width: 600px;
+}
+.form dt {
+    width: 118px;
+    text-align: start;
+    padding-top: 6px;
+    margin-right: 94px;
+}
+.form dd {
+    width: 386px;
+    text-align: left;
+    margin-bottom: 24px;
+}
+#application {
+    margin-top: 36px;
+}
+#startup {
+    display: block;
+    margin: 40px 0 24px 0;
+}
+#transfer {
+    display: block;
+    margin-bottom: 24px;
+}
+#job {
+    display: block;
+    margin-bottom: 24px;
+}
+#knowledge {
+    display: block;
+    margin-bottom: 24px;
+}
+.checkbox1 {
+    margin-right: 40px;
+}
+.textbox {
+    width: 380px;
+    height: 34px;
+}
+.detail {
+    width: 380px;
+    height: 106px;
+}
+input[type="checkbox"] {
+    -webkit-appearance: none;
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    background-color: #f0ebe5;
+    border: none;
+}
+input[type="checkbox"]:hover {
+    border: 1px solid darkgrey;
+}
+input[type="checkbox"]:checked {
+    background-color: yellow;
+    border: 2px solid red;
+}
+
+#submit input[type="submit"] {
+    width: 298px;
+    height: 54px;
+    display: inline-block;
+    background: #ffd61a;
+    border: none;
+    font-size: 18px;
+    font-weight: normal;
+    color: white;
+    font-family: "游ゴシック";
+    margin-bottom: 56px;
+}
+#submit input[type="submit"]:hover {
+    color: lightcoral;
+    font-family: "メイリオ";
+    font-size: 30px;
+    font-style: italic;
+}
+.copy {
+    background-color: #5f6163;
+    width: 100%;
+    line-height: 6;
+    color: white;
+    text-align: center;
+    font-family: "arial";
+}
+.navi a:hover {
+    color: lightcoral;
+    font-family: "herculanum"; 
+}
+.contact a:hover {
+    color: lightcoral; 
+    font-size: 20px; 
+    font-style: italic;
+}
+.form a {
+    -webkit-transition: color 0.3s, background-color 0.3s, box-shadow 0.3s, -webkit-transform 0.3s;
+transition: color 0.3s, background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+}
+form a:active {
+    transition-duration: 0.1s;
+}
+
+@media screen and (max-width:640px){
+    p {
+        font-size: 14px;
+    }
+    h3 {
+        font-size: 14px;
+    }
+    
+    .wrap {
+        width: 96%;
+        margin-right: auto;
+        margin-left:auto;
+    }
+    #course1 {
+        width: 90%;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    #course2 {
+        width: 90%;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    #course3 {
+        width: 90%;
+        display: inline-block;
+        vertical-align: middle;
+        margin-top: 24px;
+    }
+    #first {
+        width: 89%;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        margin-top: 0px;
+        padding-top: 5px;
+        border: 1px solid black;
+    }
+    #first h2 {
+        font-size: 16px;
+        color: #222222;
+        margin: 0 48px;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+    #first p {
+        text-align: initial;
+        margin: 0 24px;
+        font-size: 12px;
+    }
+    #second {
+        width: 89%;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        padding-top: 5px;
+        border: 1px solid black;
+        margin-top: 24px;
+    }
+    #second h2 {
+        font-size: 16px;
+        color: #222222;
+        margin: 0 48px;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+    #second p {
+        text-align: initial;
+        margin: 0 24px;
+        font-size: 12px;
+        
+    }
+    #third {
+        width: 89%;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        border: 1px solid black;
+        padding-top: 5px;
+    }
+    #third h2 {
+        font-size: 16px;
+        color: #222222;
+        margin: 0 48px;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+    #third p {
+        text-align: initial;
+        margin: 0 24px;
+        font-size: 12px;
+    }
+    .news-title {
+        margin: 15% 0 40px 0;
+    }
+    .news-title h2 {
+        font-size: 24px;
+        color: #ffd61a;
+        margin-bottom: 24px;
+        background-color: red;
+    }
+    .cheeze1 {
+        width: 86%;
+        display: block;
+        margin: 0 auto;
+    }
+    .cheeze2 {
+        width: 86%;
+        display: block;
+        margin: 0 auto;
+    }
+    .cheeze3 {
+        width: 86%;
+        display: block;
+        margin: 0 auto;
+
+    }
+    .date {
+        font-size: 14px;
+        text-align: left;
+        margin: 12px 0 12px 0;
+    }
+    .description {
+        font-size: 14px;
+        text-align: left;
+        margin-bottom: 56px;
+    }
+    .news img {
+        width: 100%; 
+        height: auto;
+        border: 2px solid rgb(194, 117, 18); 
+    }
+    .more {
+        width: 100px;
+        height: 40px; 
+        background-color: #ffd61a;
+        position: relative;
+        display: inline-block;
+        margin: 30px 0 24px 0;
+        text-align: center;
+    }
+    .more a {
+        font-size: 20px;
+        color: white;
+        position: absolute; 
+        top: 50%;
+        left: 50%; 
+        transform: translate(-50%, -50%);
+    }
+    #map iframe {
+        width: 100%;
+        height: auto;
+    }
+    .form dl {
+        display: block;
+        margin: 48px 5px 24px 5px;
+        font-size: 14px;
+        width: 98%;
+    }
+    .form dt {
+        width: 30%;
+        text-align: start;
+        padding-top: 6px;
+        margin-right: 5%;
+        display: block;
+    }
+    .form dd {
+        width: 68%;
+        text-align: start;
+        margin-bottom: 24px;
+        display: block;
+        font-size: 13px;
+    }
+    #application {
+        margin-top: 36px;
+    }
+    #startup {
+        display: block;
+        margin: 40px 0 24px 0;
+        width: 140%;
+    }
+    #transfer {
+        display: block;
+        margin-bottom: 24px;
+        width: 140%;
+    }
+    #job {
+        display: block;
+        margin-bottom: 24px;
+        width: 140%;
+    }
+    #knowledge {
+        display: block;
+        margin-bottom: 24px;
+        width: 140%;
+    }
+    #checkbox {
+        margin-right: 5%;
+    }
+    .textbox {
+        width: 140%;
+        height: 34px;
+    }
+    .detail {
+        width: 140%;
+        height: 106px;
+    }
+    #school dl {
+        font-size: 13px;
+        width: 100%;
+        display: inline-block;
+        margin-bottom: 80px;
+    }
+    #school dt {
+        width: 30%; 
+        padding-left: 5px;
+        display: inline-block;
+        font-size: 12px;
+        word-spacing: 1.75px;
+        margin-bottom: 24px;
+        text-align: left;
+    }
+    #school dd {
+        width: 65%;
+        display: inline-block;
+        font-size: 12px;
+        word-spacing: 1.75px;
+        text-align: start;
+    }
+    #school {
+        margin: 64px 0 80px 0;
+        text-align: start;
+    }
+    .copy {
+        font-size: 9px;
+    }
+    #cheeze-pic {
+        width: 100%;
+        height: auto;
+        
+    }
+    .site-title {
+        white-space: nowrap;
+        font-size: 45px;
+        color: Ivory;
+        font-weight: bold;
+        padding-top: 0;
+        padding-bottom: 0px;
+    }
+    .site-title2 {
+        white-space: nowrap;
+        font-size: 45px;
+        color: Ivory;
+        font-weight: bold;
+        padding-top: 0;
+        padding-bottom: 0px;
+    }
+    .site-title3 {
+        white-space: nowrap;
+        font-size: 45px;
+        color: Ivory;
+        font-weight: bold;
+        padding-top: 0;
+        padding-bottom: 0px;
+    }
+    .site-title4 {
+        white-space: nowrap;
+        font-size: 45px;
+        color: Ivory;
+        font-weight: bold;
+        padding-top: 0;
+        padding-bottom: 0px;
+    }
+    #site-title2 {
+        white-space: nowrap;
+        font-size: 12px;
+        font-weight: bold; 
+        color: red;
+        padding-top: 15px;
+        padding-bottom: 0;
+        background: linear-gradient(transparent 70%, yellow 25%);
+    }
+    .main-visual {
+        position: relative;
+        text-align: center;
+    }
+    #main-visual {
+        text-align: center;
+        position: relative;
+        transform: translate(-50%, -95%);
+
+        /*position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);*/
+    }
+    .navi {
+        width: 100%;
+        height: 40px;
+        transform: translate(0, -50%);
+    }
+    
+    .navi {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 2px solid darkslategrey;
+        border-top: 2px solid darkslategrey;
+    }
+    #navi-pic {
+        width: 20%;
+        height: auto;
+        padding: 13px 3%;
+    }
+    .navi li {
+        font-size: 10px;
+        display: inline-block;
+        padding-right: 2%;
+    }
+    .navi ul {
+        width: 79%;
+        text-align: end;
+    }
+    .about {
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+}
